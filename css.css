@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+#Home {
+	background: linear-gradient(to right, #a7c4eb, #FFF);
+	color: white;
+	margin: 30px;
+	position: fixed;
+	font-size: 1.5em;
+	width: 95%;
+	height: 170px;
+	z-index: 1000;
+}
+.sky {
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	position: fixed;
+}
+.nav-menu ul {
+	width: 600px;
+	border-top: 2px solid #FFF;
+	border-radius: 10px;
+}
+.logo { 
+	font-family: Lobster;
+	width: 300px;
+	float: left;
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+
+}
+a:hover, a:active{
+
+}
+#Home div nav ul {
+	list-style: none;
+
+}
+#Home div nav ul li {
+	float:left;
+	display: inline;
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+}
+#Home div nav ul li a {
+	color: #FFF;
+}
+#Home div nav ul li:hover {
+	border-bottom: 3px solid red;
+	font-size: 1.3em;	
+}
+#Home div nav ul li:nth-child(4) {
+	margin-left: 120px;
+}
+#Home div nav ul li:nth-child(4):hover {
+	border-bottom: 3px solid green;
+}
+#Home div nav ul li:nth-child(3):hover {
+	border-bottom: 3px solid yellow;
+}
+#Home div nav ul li:nth-child(2):hover {
+	border-bottom: 3px solid blue;
+}
+.parent {
+	text-align: center;
+}
+#karusel {
+	width: 998px;
+	height: 659px;
+	display: inline-block;
+	text-align: left;
+	margin-top: 250px;
+}
+#Search {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 3em;
+	z-index: 1001;
+	position: relative;
+}
+#icon {
+	float: right;
+	position: relative;
+	z-index: 20000;
+}
+#date_time {
+	padding-left: 20%;
+}
