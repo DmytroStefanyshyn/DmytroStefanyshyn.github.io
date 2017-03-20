@@ -10,12 +10,11 @@ body{
 	padding:0;
 }
 #Home {
-	background: linear-gradient(to right, #a7c4eb, #FFF);
-	color: white;
-	margin: 30px;
+	background: linear-gradient(to right, #a7c4eb, #233a4d);
+	color: white;	
 	position: fixed;
-	font-size: 1.5em;
-	width: 95%;
+	font-size: 1.4em;
+	width: 100%;
 	height: 170px;
 	z-index: 1000;
 }
@@ -28,7 +27,6 @@ body{
 .nav-menu ul {
 	width: 600px;
 	border-top: 2px solid #FFF;
-	border-radius: 10px;
 }
 .logo { 
 	font-family: Lobster;
@@ -38,14 +36,9 @@ body{
 a {
 	text-decoration: none;
 }
-a:link, a:visited {
-
-}
-a:hover, a:active{
-
-}
 #Home div nav ul {
 	list-style: none;
+	font-family: Lobster;
 
 }
 #Home div nav ul li {
@@ -60,7 +53,7 @@ a:hover, a:active{
 }
 #Home div nav ul li:hover {
 	border-bottom: 3px solid red;
-	font-size: 1.3em;	
+	font-size: 37px;	
 }
 #Home div nav ul li:nth-child(4) {
 	margin-left: 120px;
@@ -95,7 +88,10 @@ a:hover, a:active{
 	float: right;
 	position: relative;
 	z-index: 20000;
+	width: auto;
+	height: 170px;
 }
 #date_time {
 	padding-left: 20%;
+	font-family: Lobster;
 }
