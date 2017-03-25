@@ -52,20 +52,20 @@ a {
 	color: #FFF;
 }
 #Home div nav ul li:hover {
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid blue;
 	font-size: 37px;	
 }
 #Home div nav ul li:nth-child(4) {
 	margin-left: 120px;
 }
 #Home div nav ul li:nth-child(4):hover {
-	border-bottom: 3px solid green;
+	border-bottom: 3px solid blue;
 }
 #Home div nav ul li:nth-child(3):hover {
 	border-bottom: 3px solid yellow;
 }
 #Home div nav ul li:nth-child(2):hover {
-	border-bottom: 3px solid blue;
+	border-bottom: 3px solid red;
 }
 .parent {
 	text-align: center;
