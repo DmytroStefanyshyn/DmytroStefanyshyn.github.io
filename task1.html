@@ -4,16 +4,23 @@
 	<title>Tasks</title>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="task1.js"></script>
-	<script type="text/javascript" src="task1_1.js"></script>
 </head>
 <body>
-<h3>Task №1</h3>
-<div id="main"></div>
+
+<h3 
+onclick="task2(document.getElementById('main'))" 
+style="text-decoration: underline;"
+onmouseover="this.style.color='blue'" 
+onmouseout="this.style.color='black'">Task №1</h3>
+<div onclick="task1(document.getElementById('main'))" id="main"></div>
 <script type="text/javascript">
 	task1(document.getElementById("main"));
 </script>
-
-<h3 onclick="getFibonacciSequence(prompt('Please enter the number of Fibonacci Sequence', 8))">Task №2</h3>
+<h3 
+onclick="getFibonacciSequence(prompt('Please enter the number of Fibonacci Sequence', 8))" 
+style="text-decoration: underline;"
+onmouseover="this.style.color='blue'" 
+onmouseout="this.style.color='black'">Task №2</h3>
 <div id="main_t"></div>
 </body>
 </html>
